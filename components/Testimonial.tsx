@@ -67,7 +67,7 @@ const Testimonial = () => {
           
           {/* Quote */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-gray-900 leading-snug mb-8 max-w-4xl">
-            "{currentTestimonial.quote}"
+            &quot;{currentTestimonial.quote}&quot;
           </h2>
           
           {/* Author */}

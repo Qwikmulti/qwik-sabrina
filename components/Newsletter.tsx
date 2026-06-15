@@ -1,5 +1,6 @@
 import React from 'react';
 import { MoreHorizontal } from 'lucide-react';
+import Image from 'next/image';
 
 const Newsletter = () => {
   return (
@@ -33,10 +34,11 @@ const Newsletter = () => {
 
         {/* Right Image */}
         <div className="w-full lg:w-1/2 h-64 sm:h-80 lg:h-auto relative min-h-[300px]">
-          <img 
+          <Image 
             src="/hold.jpg" 
             alt="Newsletter Background"
-            className="absolute inset-0 w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
       </div>

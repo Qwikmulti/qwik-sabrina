@@ -4,10 +4,6 @@ import Link from "next/link"
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils"
 
-interface MainNavProps {
-  // Add any needed props here in the future
-}
-
 const staticRoutes = [
   { href: "/", label: "Home" },
   { href: "/shop", label: "Shop All" },
@@ -16,7 +12,7 @@ const staticRoutes = [
   { href: "/contact", label: "Contact" },
 ];
 
-const MainNav: React.FC<MainNavProps> = () => {
+const MainNav = () => {
   const pathname = usePathname();
 
   return (

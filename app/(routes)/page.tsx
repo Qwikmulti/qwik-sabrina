@@ -1,12 +1,9 @@
 import getBillboards from "@/actions/get-billboards";
 import BillboardCard from "@/components/ui/billboard-card";
 import getProducts from "@/actions/get-products";
-import InfoSection from "@/components/Infosection";
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
-import WhyChooseUs from "@/components/WhyChooseUs";
 import HeroSection from "@/components/Herosection";
-import DummyProductPage from "@/components/DummyProduct";
 import Newsletter from "@/components/Newsletter";
 import Features from "@/components/Features";
 import Testimonial from "@/components/Testimonial";
@@ -26,7 +23,7 @@ const HomePage = async () => {
       {/* <WhyChooseUs /> */}
       <Testimonial />
 
-      {/* Our Collections — Bento Grid */}
+      {/* Our Collections */}
       <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center mb-10">

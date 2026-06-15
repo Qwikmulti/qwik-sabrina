@@ -15,7 +15,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: "Fast shipping and the clothes fit perfectly. I'm definitely shopping here again!",
+    quote: "Fast shipping and the clothes fit perfectly. I am definitely shopping here again!",
     author: "Sarah Smith",
     rating: 5,
   },

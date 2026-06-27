@@ -55,8 +55,8 @@ const StockFooter: React.FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 shrink-0 text-gray-400" />
-                <a href="mailto:hello@yourbrand.com" className="hover:text-white transition-colors">
-                  hello@yourbrand.com
+                <a href="mailto:contact@juststocktrading.com" className="hover:text-white transition-colors">
+                  contact@juststocktrading.co.uk
                 </a>
               </li>
             </ul>

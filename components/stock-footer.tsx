@@ -16,7 +16,7 @@ const StockFooter: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <a href="#shop" className="hover:text-white transition-colors">
+                <a href="shop" className="hover:text-white transition-colors">
                   Shop
                 </a>
               </li>
@@ -102,7 +102,7 @@ const StockFooter: React.FC = () => {
         </div>
       </div>
       <div className="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
-        &copy; 2026 YourBrand. All rights reserved.
+        &copy; 2026 Just stock trading. All rights reserved.
       </div>
     </footer>
   );

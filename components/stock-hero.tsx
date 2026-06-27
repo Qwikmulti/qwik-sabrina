@@ -43,7 +43,7 @@ const StockHero: React.FC = () => {
           Quality-checked, Trusted, and Ready to ship.
         </p>
         <Link
-          href="#shop"
+          href="shop"
           className="inline-block bg-white font-bold no-underline transition-all duration-200 hover:bg-[#e8e8e8] hover:-translate-y-0.5 px-5 sm:px-7 lg:px-8 py-2.5 sm:py-3 mt-6 sm:mt-7 lg:mt-8"
           style={{
             color: "#2c2c2c",

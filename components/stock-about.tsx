@@ -46,7 +46,7 @@ const StockAbout: React.FC = () => {
             </div>
 
             <a
-              href="#shop"
+              href="shop"
               className="inline-block bg-black text-white font-medium py-3 px-8 rounded-full hover:bg-gray-800 transition-colors text-sm"
             >
               Browse Our Products

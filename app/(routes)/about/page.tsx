@@ -80,32 +80,6 @@ const values = [
   },
 ];
 
-const teamMembers = [
-  {
-    name: "Sarah Mitchell",
-    role: "Founder & CEO",
-    image: "/user.png",
-    bio: "15+ years in wholesale and export, passionate about connecting global markets.",
-  },
-  {
-    name: "James Osei",
-    role: "Operations Director",
-    image: "/user.png",
-    bio: "Ensuring every shipment meets our quality standards and arrives on time.",
-  },
-  {
-    name: "Ama Serwaa",
-    role: "Customer Relations",
-    image: "/user.png",
-    bio: "Dedicated to providing exceptional support to our global reseller network.",
-  },
-  {
-    name: "David Appiah",
-    role: "Logistics Lead",
-    image: "/user.png",
-    bio: "Expert in international shipping and supply chain management.",
-  },
-];
 
 const Counter = ({ value, suffix = "" }: { value: string; suffix?: string }) => {
   const [count, setCount] = useState(0);

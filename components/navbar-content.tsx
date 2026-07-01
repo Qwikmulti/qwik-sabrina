@@ -2,17 +2,12 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, User, Heart } from "lucide-react";
+import { User } from "lucide-react";
 import MainNav from "@/components/main-nav";
 import NavbarActions from "@/components/navbar-actions";
 import MobileMenu from "@/components/mobile-menu";
-import { Category } from "@/types";
 
-interface NavbarContentProps {
-  categories: Category[];
-}
-
-const NavbarContent: React.FC<NavbarContentProps> = ({ categories }) => {
+const NavbarContent: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -35,7 +30,7 @@ const NavbarContent: React.FC<NavbarContentProps> = ({ categories }) => {
         <div className="flex items-center justify-between gap-4">
           {/* Mobile Menu (Left on Mobile, Hidden on Desktop) */}
           <div className="flex items-center lg:hidden">
-            <MobileMenu categories={categories} />
+            <MobileMenu />
           </div>
 
           {/* Logo */}

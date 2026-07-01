@@ -1,6 +1,5 @@
 "use client";
 
-import getCategories from "@/actions/get-categories";
 import { X, Menu, Search, User, Heart } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -13,11 +12,7 @@ const staticLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
-type MobileMenuProps = {
-  categories: Awaited<ReturnType<typeof getCategories>>;
-};
-
-const MobileMenu = ({ categories }: MobileMenuProps) => {
+const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const pathname = usePathname();

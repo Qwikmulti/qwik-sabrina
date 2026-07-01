@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const StockHeader: React.FC = () => {
   const [navOpen, setNavOpen] = useState(false);
